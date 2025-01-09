@@ -26,13 +26,14 @@ Use `hostname -I` to find out your IP address
 
     ```bash
 	source install/setup.bash
-    ros2 launch gbot_nav display.launch.py
+    ros2 launch slam_toolbox online_async_launch.py
 	```
 
 1. Run t he nav2_bringup package in a new terminal
 
     ```bash
 	source install/setup.bash
-    ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true
+    ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true params_file:=$HOME/ros2_ws/src/gbot_nav/config/nav2_params.yaml
+
 	```
     
