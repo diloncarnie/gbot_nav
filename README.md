@@ -1,7 +1,6 @@
 # gbot_nav package setup guide
 
 ![ROS](https://img.shields.io/badge/ros2-humble-blue)
-![Unity](img.shields.io/badge/unity-2020.3.11f-brightgreenhttps://)
 
 This is a ros package for setting up and running nav2 using the unity simulation. The following are step by step instructions on how to connect nav2 to the unity.
 
