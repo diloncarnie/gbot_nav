@@ -29,7 +29,7 @@ Use `hostname -I` to find out your IP address
     ros2 launch slam_toolbox online_async_launch.py
 	```
 
-1. Run t he nav2_bringup package in a new terminal
+1. Run the nav2_bringup package in a new terminal
 
     ```bash
 	source install/setup.bash
