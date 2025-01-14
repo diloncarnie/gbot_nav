@@ -1,4 +1,4 @@
-# gbot_nav package setup guide
+# gbot_nav package slam test
 
 ![ROS](https://img.shields.io/badge/ros2-humble-blue)
 
